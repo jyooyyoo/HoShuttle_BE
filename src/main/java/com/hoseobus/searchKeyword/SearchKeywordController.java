@@ -1,4 +1,1 @@
-package com.hoseobus.searchKeyword;
-
-public class SearchKeywordController {
-}
+// SearchkeywordController.java - auto-generated

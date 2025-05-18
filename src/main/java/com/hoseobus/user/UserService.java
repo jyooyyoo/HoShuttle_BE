@@ -1,7 +1,10 @@
-package com.hoshuttle.backend.user;
+package com.hoseobus.user;
 
 import java.util.List;
 
 public interface UserService {
-    List<User> getAllUsers();
+    UserDto.Response createUser(UserDto.Request request);
+    UserDto.Response getUser(Long id);
+    List<UserDto.Response> getAllUsers();
+    void deleteUser(Long id);
 }

@@ -1,18 +1,24 @@
-package com.hoshuttle.backend.user;
+package com.hoseobus.user;
 
 import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
 @Getter
-@Setter
-@NoArgsConstructor
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
 @Builder
 public class User {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private String email;
+
     private String name;
+
+    private String password;
+
+    private String role; // 예: ROLE_USER, ROLE_ADMIN
 }

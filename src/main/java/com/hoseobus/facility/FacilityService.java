@@ -1,4 +1,1 @@
-package com.hoseobus.facility;
-
-public class FacilityService {
-}
+// FacilityService.java - auto-generated

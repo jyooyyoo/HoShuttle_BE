@@ -1,4 +1,1 @@
-package com.hoseobus.config;
-
-public class SecurityConfig {
-}
+// SecurityConfig.java - auto-generated

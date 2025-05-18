@@ -1,4 +1,1 @@
-package com.hoseobus.route;
-
-public class RouteRepository {
-}
+// RouteRepository.java - auto-generated

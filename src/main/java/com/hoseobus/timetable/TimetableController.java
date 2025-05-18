@@ -1,4 +1,1 @@
-package com.hoseobus.timetable;
-
-public class TimetableController {
-}
+// TimetableController.java - auto-generated

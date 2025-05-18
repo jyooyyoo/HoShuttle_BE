@@ -1,4 +1,1 @@
-package com.hoseobus.station;
-
-public class Station {
-}
+// Station.java - auto-generated

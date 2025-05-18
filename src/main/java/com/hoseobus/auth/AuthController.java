@@ -1,4 +1,1 @@
-package com.hoseobus.auth;
-
-public class AuthController {
-}
+// AuthController.java - auto-generated
