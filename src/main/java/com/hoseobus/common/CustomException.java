@@ -1,4 +1,4 @@
-package com.hoseobus.common;
+package com.hoshuttle.backend.common;
 
 import lombok.Getter;
 
