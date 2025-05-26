@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/hoseobus
+    url: jdbc:mysql://localhost:5432/hoseobus
     username: postgres
     password: yourpassword
   jpa:
