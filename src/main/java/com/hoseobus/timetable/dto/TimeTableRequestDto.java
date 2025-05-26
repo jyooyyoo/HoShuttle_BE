@@ -1,14 +1,15 @@
-public class TimeTableResponse {
+// timetable/dto/TimeTableRequestDto.java
+@Data
+public class TimeTableRequestDto {
     private Long stationId;
     private String day;
     private List<ScheduleDto> schedules;
 
-    @Getter @Setter
+    @Data
     public static class ScheduleDto {
         private String time;
         private String type;
-        private String busNumber; // type이 bus일 때만 포함
+        private String busNumber;
+        private String direction;
     }
-
-    // 생성자, getter, setter 등
 }
