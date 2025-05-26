@@ -9,33 +9,14 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/timetables")
 @RequiredArgsConstructor
-public class TimetableController {
+public class TimeTableController {
 
-    private final TimetableService timetableService;
-
-    @PostMapping
-    public BaseResponse<TimetableDto> create(@RequestBody TimetableDto dto) {
-        return new BaseResponse<>(timetableService.createTimetable(dto));
-    }
-
-    @GetMapping("/{id}")
-    public BaseResponse<TimetableDto> get(@PathVariable Long id) {
-        return new BaseResponse<>(timetableService.getTimetable(id));
-    }
+    private final TimeTableService timeTableService;
 
     @GetMapping
-    public BaseResponse<List<TimetableDto>> getAll() {
-        return new BaseResponse<>(timetableService.getAllTimetables());
-    }
-
-    @PutMapping("/{id}")
-    public BaseResponse<TimetableDto> update(@PathVariable Long id, @RequestBody TimetableDto dto) {
-        return new BaseResponse<>(timetableService.updateTimetable(id, dto));
-    }
-
-    @DeleteMapping("/{id}")
-    public BaseResponse<String> delete(@PathVariable Long id) {
-        timetableService.deleteTimetable(id);
-        return new BaseResponse<>("삭제 완료");
+    public ResponseEntity<TimeTableResponse> getTimetable(
+            @RequestParam Long stationId,
+            @RequestParam String day) {
+        return ResponseEntity.ok(timeTableService.getTimetable(stationId, day));
     }
 }
