@@ -1,4 +1,4 @@
-package com.hoshuttle.backend.station;
+package com.hoseobus.station.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -16,10 +16,6 @@ public class Station {
     private Long id;
 
     private String name;
-
-    private Double latitude;
-
-    private Double longitude;
 
     private Integer orderInRoute;
 

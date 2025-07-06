@@ -1,4 +1,4 @@
-package com.hoshuttle.backend.station;
+package com.hoseobus.station.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

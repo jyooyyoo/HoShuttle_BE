@@ -1,4 +1,4 @@
-package com.hoshuttle.backend.station;
+package com.hoseobus.station.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

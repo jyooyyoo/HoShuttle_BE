@@ -1,4 +1,4 @@
-package com.hoshuttle.backend.station;
+package com.hoseobus.station.service;
 
 import java.util.List;
 
