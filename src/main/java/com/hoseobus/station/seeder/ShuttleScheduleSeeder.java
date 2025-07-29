@@ -22,7 +22,7 @@ public class StationSeeder implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         // 1. JSON 파일 읽기
-        InputStream is = new ClassPathResource("data/ShuttleScheduleDB_1.json").getInputStream();
+        InputStream is = new ClassPathResource("data/ShuttleScheduleDB.json").getInputStream();
         JsonNode root = objectMapper.readTree(is);
 
         // 2. 모든 정류장 이름 추출
