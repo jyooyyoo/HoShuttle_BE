@@ -1,3 +1,5 @@
+package com.hoshuttle.favorite;
+
 public interface FavoriteStationRepository extends JpaRepository<FavoriteStation, Long> {
 
     List<FavoriteStation> findAllByUserIdAndIsDeletedFalse(Long userId);

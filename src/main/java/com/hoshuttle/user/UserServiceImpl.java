@@ -1,5 +1,4 @@
-package com.hoseobus.user;
-
+package com.hoshuttle.user;
 import com.hoseobus.common.CustomException;
 import com.hoseobus.common.ErrorCode;
 import lombok.RequiredArgsConstructor;

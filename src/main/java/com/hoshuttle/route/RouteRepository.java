@@ -1,5 +1,4 @@
-// com.hoshuttle.route.repository.RouteRepository.java
-package com.hoseobus.route.repository;
+package com.hoshuttle.route;
 
 import com.hoseobus.route.entity.Route;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,4 +1,4 @@
-package com.hoseobus.backend;
+package com.hoshuttle;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

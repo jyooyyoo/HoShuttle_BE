@@ -1,4 +1,4 @@
-package com.hoseobus.seeders; // 또는 com.hoseobus.timetable.seeders
+package com.hoshuttle.timetable.seeder;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

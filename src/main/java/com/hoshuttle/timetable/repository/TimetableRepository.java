@@ -1,5 +1,5 @@
-// timetable/repository/TimetableRepository.java
-package com.hoseobus.timetable.repository;
+package com.hoshuttle.timetable.repository;
+
 
 import com.hoseobus.timetable.domain.TimeTable; // 수정된 엔티티 이름에 맞춤
 import org.springframework.data.jpa.repository.JpaRepository;

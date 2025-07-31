@@ -1,4 +1,5 @@
-// timetable/dto/TimeTableRequestDto.java
+package com.hoshuttle.timetable.dto;
+
 @Data
 public class TimeTableRequestDto {
     private Long stationId;

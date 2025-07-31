@@ -1,4 +1,4 @@
-// com.hoshuttle.route.repository.RouteController.java
+package com.hoshuttle.route;
 
 import org.springframework.web.bind.annotation.*;
 

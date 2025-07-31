@@ -1,4 +1,5 @@
-// timetable/dto/TimeTableResponseDto.java
+package com.hoshuttle.timetable.dto;
+
 @Data
 @Builder
 public class TimeTableResponseDto {

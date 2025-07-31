@@ -1,4 +1,5 @@
-// timetable/facade/TimeTableFacadeService.java
+package com.hoshuttle.timetable.facade;
+
 @Service
 @RequiredArgsConstructor
 public class TimeTableFacadeService {

@@ -1,5 +1,4 @@
-package com.hoseobus.user;
-
+package com.hoshuttle.user;
 import jakarta.persistence.*;
 import lombok.*;
 

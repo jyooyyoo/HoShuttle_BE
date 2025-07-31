@@ -1,4 +1,4 @@
-package com.hoshuttle.backend.searchKeyword;
+package com.hoshuttle.searchKeyword;
 
 import jakarta.persistence.*;
 import lombok.*;

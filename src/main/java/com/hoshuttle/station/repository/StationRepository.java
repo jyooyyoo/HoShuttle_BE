@@ -1,4 +1,4 @@
-// com.hoshuttle.station.repository.StationRepository.java
+package com.hoshuttle.station.repository;
 
 import com.hoseobus.station.entity.Station;
 import org.springframework.data.jpa.repository.JpaRepository;

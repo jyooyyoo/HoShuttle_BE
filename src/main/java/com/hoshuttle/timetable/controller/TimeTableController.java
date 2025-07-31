@@ -1,4 +1,4 @@
-package com.hoseobus.backend.timetable.controller;
+package com.hoshuttle.timetable.controller;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

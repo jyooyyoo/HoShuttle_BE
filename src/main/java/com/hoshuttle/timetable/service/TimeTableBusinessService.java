@@ -1,4 +1,6 @@
-// timetable/service/TimeTableBusinessService.java
+package com.hoshuttle.timetable.service;
+
+
 @Service
 @RequiredArgsConstructor
 public class TimeTableBusinessService {

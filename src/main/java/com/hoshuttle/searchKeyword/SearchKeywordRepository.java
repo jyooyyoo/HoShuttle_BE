@@ -1,4 +1,4 @@
-package com.hoshuttle.backend.searchKeyword;
+package com.hoshuttle.searchKeyword;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

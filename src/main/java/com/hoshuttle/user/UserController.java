@@ -1,4 +1,4 @@
-package com.hoseobus.user;
+package com.hoshuttle.user;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

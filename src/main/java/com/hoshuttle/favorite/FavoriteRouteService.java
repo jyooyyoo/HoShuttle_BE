@@ -1,3 +1,5 @@
+package com.hoshuttle.favorite;
+
 @Service
 @RequiredArgsConstructor
 public class FavoriteRouteService {

@@ -1,5 +1,4 @@
-package com.hoseobus.user;
-
+package com.hoshuttle.user;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

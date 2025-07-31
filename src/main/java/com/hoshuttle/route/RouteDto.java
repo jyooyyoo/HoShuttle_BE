@@ -1,4 +1,4 @@
-// com.hoshuttle.route.repository.RouteDto.java
+package com.hoshuttle.route;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-// com.hoshuttle.route.repository.RouteRepository.java
+package com.hoshuttle.route;
 
 import jakarta.persistence.*;
 import lombok.*;

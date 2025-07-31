@@ -1,4 +1,4 @@
-// com.hoshuttle.route.repository.RouteService.java
+package com.hoshuttle.route;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

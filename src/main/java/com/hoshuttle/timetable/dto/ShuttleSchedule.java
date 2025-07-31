@@ -1,4 +1,4 @@
-package com.hoseobus.backend.timetable.dto;
+package com.hoshuttle.timetable.dto;
 
 import lombok.Getter;
 import lombok.Setter;

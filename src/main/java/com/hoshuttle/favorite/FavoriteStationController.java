@@ -1,3 +1,5 @@
+package com.hoshuttle.favorite;
+
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/favorite/stations")

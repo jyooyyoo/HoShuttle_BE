@@ -1,4 +1,5 @@
-package com.hoseobus.user;
+package com.hoshuttle.user;
+
 
 import java.util.List;
 

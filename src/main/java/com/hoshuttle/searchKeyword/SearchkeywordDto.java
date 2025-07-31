@@ -1,4 +1,4 @@
-package com.hoshuttle.searchkeyword;
+package com.hoshuttle.searchKeyword;
 
 public class SearchkeywordDto {
 }

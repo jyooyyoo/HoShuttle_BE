@@ -1,5 +1,4 @@
-package com.hoseobus.user;
-
+package com.hoshuttle.user;
 import lombok.*;
 
 public class UserDto {

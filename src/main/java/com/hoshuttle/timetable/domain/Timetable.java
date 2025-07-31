@@ -1,4 +1,4 @@
-package com.hoseobus.timetable.domain;
+package com.hoshuttle.timetable.domain;
 
 import jakarta.persistence.*;
 import lombok.*;

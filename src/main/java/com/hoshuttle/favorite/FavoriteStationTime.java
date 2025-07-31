@@ -1,3 +1,5 @@
+package com.hoshuttle.favorite;
+
 @Entity
 @Table(name = "favorite_station_time")
 @Getter
