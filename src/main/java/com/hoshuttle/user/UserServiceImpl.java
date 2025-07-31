@@ -1,6 +1,6 @@
 package com.hoshuttle.user;
-import com.hoseobus.common.CustomException;
-import com.hoseobus.common.ErrorCode;
+import com.hoshuttle.common.CustomException;
+import com.hoshuttle.common.ErrorCode;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

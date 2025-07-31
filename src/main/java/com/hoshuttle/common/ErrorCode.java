@@ -1,4 +1,4 @@
-package com.hoshuttle.backend.common;
+package com.hoshuttle.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

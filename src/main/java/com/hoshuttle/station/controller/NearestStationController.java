@@ -1,7 +1,7 @@
 package com.hoshuttle.station.controller;
 
-import com.hoseobus.station.dto.NearestStationResponseDto;
-import com.hoseobus.station.service.NearestStationService;
+import com.hoshuttle.station.dto.NearestStationResponseDto;
+import com.hoshuttle.station.service.NearestStationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

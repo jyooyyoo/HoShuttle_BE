@@ -1,6 +1,6 @@
 package com.hoshuttle.route;
 
-import com.hoseobus.route.entity.Route;
+import com.hoshuttle.route.Route;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

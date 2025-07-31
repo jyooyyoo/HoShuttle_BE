@@ -1,4 +1,4 @@
-package com.hoshuttle.backend.common;
+package com.hoshuttle.common;
 
 import lombok.Getter;
 
@@ -11,3 +11,4 @@ public class CustomException extends RuntimeException {
         this.errorCode = errorCode;
     }
 }
+

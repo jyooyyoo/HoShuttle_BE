@@ -1,5 +1,7 @@
 package com.hoshuttle.station.dto;
 
+import com.hoshuttle.station.entity.Station;
+
 public class StationDto {
     private Long id;
     private String name;
@@ -29,4 +31,3 @@ public class StationDto {
     public double getLongitude() { return longitude; }
     public void setLongitude(double longitude) { this.longitude = longitude; }
 }
-

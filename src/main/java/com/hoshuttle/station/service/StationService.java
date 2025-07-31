@@ -1,5 +1,6 @@
 package com.hoshuttle.station.service;
 
+import com.hoshuttle.station.entity.Station;
 import java.util.List;
 
 public interface StationService {
