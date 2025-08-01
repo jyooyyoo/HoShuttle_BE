@@ -1,7 +1,7 @@
 package com.hoshuttle.station.service;
 
 import com.hoshuttle.station.dto.NearestStationResponseDto;
-import com.hoshuttle.station.Station;
+import com.hoshuttle.station.entity.Station;
 import com.hoshuttle.station.repository.StationRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

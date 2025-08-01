@@ -1,8 +1,12 @@
 spring:
-
-# 로깅 설정
-logging:
-  level:
-    root: DEBUG
-    org.springframework.web: DEBUG
-    org.hibernate: DEBUG
+  datasource:
+    url: jdbc:mysql://localhost:5432/hoshuttle
+    username: postgres
+    password: yourpassword
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true

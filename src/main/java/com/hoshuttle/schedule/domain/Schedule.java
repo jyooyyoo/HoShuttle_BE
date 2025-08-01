@@ -5,7 +5,7 @@ import lombok.*;
 
 import java.time.LocalTime;
 
-
+@Entity
 @Table(name = "schedule")
 @Getter
 @Setter

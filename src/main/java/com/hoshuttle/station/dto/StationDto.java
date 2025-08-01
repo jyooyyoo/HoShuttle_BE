@@ -1,6 +1,6 @@
 package com.hoshuttle.station.dto;
 
-import com.hoshuttle.station.Station;
+import com.hoshuttle.station.entity.Station;
 
 public class StationDto {
     private Long id;

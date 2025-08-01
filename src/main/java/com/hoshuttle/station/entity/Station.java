@@ -1,11 +1,9 @@
-package com.hoshuttle.station;
+package com.hoshuttle.station.entity;
 
+import jakarta.persistence.*;
 import lombok.*;
 
-/**
- * 데이터베이스 없이 메모리에서 사용할 Station 객체입니다.
- * JPA 관련 어노테이션들을 제거하고, Route와의 관계를 Long 타입 ID로 대체했습니다.
- */
+@Entity
 @Getter
 @Setter
 @NoArgsConstructor
@@ -13,6 +11,8 @@ import lombok.*;
 @Builder
 public class Station {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String name;
@@ -21,11 +21,13 @@ public class Station {
 
     private String routeName;
 
+    @Column(nullable = true)
     private Double latitude;
 
+    @Column(nullable = true)
     private Double longitude;
 
+    @Column(name = "image_url", nullable = true)
     private String imageUrl;
 
-    private Long routeId; // Route 엔티티와의 연관 관계 대신 Long 타입 ID로 대체
 }
