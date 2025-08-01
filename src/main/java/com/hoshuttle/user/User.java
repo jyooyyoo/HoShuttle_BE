@@ -2,7 +2,7 @@ package com.hoshuttle.user;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Entity
+
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor

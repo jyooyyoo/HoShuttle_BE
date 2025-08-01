@@ -3,7 +3,7 @@ package com.hoshuttle.station.seeder;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hoshuttle.station.entity.Station;
+import com.hoshuttle.station.Station;
 import com.hoshuttle.station.repository.StationRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
