@@ -39,6 +39,6 @@ public class Schedule {
     }
 
     public enum Direction {
-        TO_HOSHU, FROM_HOSHU
+        Asan_to_Cheonan, Cheonan_to_Asan
     }
 }
